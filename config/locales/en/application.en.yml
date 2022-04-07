@@ -1,8 +1,8 @@
 en:
   application:
     name: Bullet Test
-    owner: Unidentified Developer
-    description: "You can update this description in `config/locales/en/application.en.yml`."
+    owner: Me
+    description: "Testing out the stuff"
     keywords: bullet test seo keywords
-    support_email: change.me@localhost
+    support_email: support@example.com
     key: bullet_test
