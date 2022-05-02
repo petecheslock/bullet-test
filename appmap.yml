@@ -1,0 +1,11 @@
+name: petecheslock/bullet-test
+packages:
+  - path: app
+  - path: lib
+language: ruby
+appmap_dir: tmp/appmap
+test_recording:
+  test_commands:
+    - env:
+        APPMAP: 'true'
+      command: rails test

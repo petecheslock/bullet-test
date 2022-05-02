@@ -92,6 +92,11 @@ GEM
     addressable (2.8.0)
       public_suffix (>= 2.0.2, < 5.0)
     api-pagination (5.0.0)
+    appmap (0.83.0)
+      activesupport
+      method_source
+      rack
+      reverse_markdown
     ast (2.4.2)
     awesome_print (1.9.2)
     aws-eventstream (1.2.0)
@@ -511,6 +516,8 @@ GEM
       http-cookie (>= 1.0.2, < 2.0)
       mime-types (>= 1.16, < 4.0)
       netrc (~> 0.8)
+    reverse_markdown (2.1.1)
+      nokogiri
     rexml (3.2.5)
     rubocop (1.26.1)
       parallel (~> 1.10)
@@ -606,6 +613,7 @@ PLATFORMS
 
 DEPENDENCIES
   active_hash!
+  appmap
   aws-sdk-s3
   bootsnap
   bullet_train
